@@ -1,28 +1,19 @@
 a {
  text-decoration: none;
+ cursor: pointer;
+ margin-left: -120px;
 }
 
-button{
-    padding: 0px 24px;
-    vertical-align: middle;
-    height: 48px;
-    border-radius: 24px;
-    color: black;
-    border: solid 2px black;
-    display: inline-block;
-    box-sizing: border-box;
-    line-height: 44px;
-    font-size: 20px; 
-    position: sticky;
-    top:0px;
-  }
+h1{
+    color: #F5F5F5;
 
-  button {
-    
-    transition-duration: 0.4s;
 }
 
-button:hover {
-  background-color: black; /* Green */
-  color: white;
+
+p{
+    font-size: 18px;
+    color: #F5F5F5;
+}
+span{
+    color: #FAFF00;
 }
