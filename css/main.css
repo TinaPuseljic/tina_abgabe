@@ -1,7 +1,12 @@
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("../fonts/Inter-Regular.woff") format("woff");
+}
+
 body {
     background-color: #211F20;
-    font-family: Inter, serif;
     display: grid;
+    font-family: Inter, serif;
     grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
     grid-template-columns: auto 1fr auto;
     margin: 0;
